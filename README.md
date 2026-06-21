@@ -1,5 +1,5 @@
-**Propelrr Frontend Aptitude Exam**
+# Propelrr Frontend Aptitude Exam
 
-Keanu Christopher Abriol
-Jr. Frontend Developer
-June 20, 2026
+**Name:** Keanu Christopher Abriol \
+**Position:** Jr. Frontend Developer \
+**Date of Exam:** June 20, 2026
