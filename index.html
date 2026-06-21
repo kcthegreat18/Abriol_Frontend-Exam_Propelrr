@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tindog is an app for dog owners to look for safe, friendly partners and companions for their dogs."
+    />
+    <meta name="author" content="Keanu Abriol" />
+    <meta property="og:title" content="Tindog: Find a Partner for Your Dog" />
+    <meta
+      property="og:description"
+      content="Help your dog find a safe, friendly companion with Tindog."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/doggypng.png" />
+    <meta property="og:image:alt" content="Tindog app with a happy dog" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tindog Website</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-title">
+        <img src="images/tindog-logo.svg" alt="" />
+        <a href="#hero" class="tindog-name">Tindog</a>
+      </div>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <img
+          class="menu-icon menu-icon-open"
+          src="images/hamburger.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <img
+          class="menu-icon menu-icon-close"
+          src="images/close.svg"
+          alt=""
+          aria-hidden="true"
+        />
+      </button>
+
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+        <a href="#find-more-band">Features</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#guides">Guides</a>
+        <button class="get-btn" type="button">Get the app</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" aria-label="Hero Section">
+        <div class="hero-container">
+          <div class="hero-desc">
+            <h2>Don't make your dog lonely</h2>
+            <h1>Get your dog a partner in life</h1>
+            <p>
+              Tindog assists dog owners whose pets are lonely. Tindog also
+              collaborated with veterinarians and a dog adoption project. Be a
+              part of this change
+            </p>
+
+            <h2>Download the app now</h2>
+            <div class="app-badges">
+              <img src="images/google.png" alt="Get it on Google Play" />
+              <img src="images/app_store.png" alt="Download on the App Store" />
+            </div>
+          </div>
+
+          <div class="hero-img">
+            <h2 id="breeders">100+ breeders</h2>
+            <h2 id="dogs">1,000 dogs adopted</h2>
+            <img id="arrow" src="images/arrow.svg" alt="" />
+            <img src="images/Ellipse.png" class="ellipse" alt="" />
+            <img
+              src="images/doggypng.png"
+              alt="Dog in Tindog app"
+              class="dog-phone"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="find-more-band"
+        class="find-more-band"
+        aria-label="Partner Organizations"
+      >
+        <p>Find out more</p>
+        <img
+          src="images/logos.png"
+          class="partner-logos"
+          alt="Partner Organizations"
+        />
+      </section>
+
+      <section
+        id="testimonials"
+        class="testimonials"
+        aria-labelledby="testimonials-title"
+      >
+        <p class="testimonials-kicker">Superb testimonials</p>
+        <h2 id="testimonials-title">See what they say about us</h2>
+
+        <div class="testimonial-carousel" data-carousel>
+          <div class="testimonial-viewport">
+            <div class="testimonial-track">
+              <article class="testimonial-card">
+                <img
+                  class="owner-pet"
+                  src="images/owner-pet.png"
+                  alt="Jane Doe with her husky"
+                />
+
+                <p class="customer-name">Jane Doe</p>
+                <h3>Pet: Husky</h3>
+
+                <div class="rating" aria-label="5 out of 5 stars">
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                </div>
+
+                <div class="testimonial-text">
+                  <img
+                    src="images/quotation_mark.svg"
+                    alt=""
+                    class="quote-mark"
+                    aria-hidden="true"
+                  />
+                  <blockquote>
+                    I really like Tindog for my pet Huskier. Tindog really gave
+                    me an accurate and safe results. Will recommend this one!
+                  </blockquote>
+                </div>
+              </article>
+
+              <article class="testimonial-card">
+                <img
+                  class="owner-pet"
+                  src="images/owner-pet.png"
+                  alt="Jane Doe with her husky"
+                />
+
+                <p class="customer-name">Jane Doe</p>
+                <h3>Pet: Husky</h3>
+
+                <div class="rating" aria-label="5 out of 5 stars">
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                </div>
+
+                <div class="testimonial-text">
+                  <img
+                    src="images/quotation_mark.svg"
+                    alt=""
+                    class="quote-mark"
+                    aria-hidden="true"
+                  />
+                  <blockquote>
+                    I really like Tindog for my pet Huskier. Tindog really gave
+                    me an accurate and safe results. Will recommend this one!
+                  </blockquote>
+                </div>
+              </article>
+
+              <article class="testimonial-card">
+                <img
+                  class="owner-pet"
+                  src="images/owner-pet.png"
+                  alt="Jane Doe with her husky"
+                />
+
+                <p class="customer-name">Jane Doe</p>
+                <h3>Pet: Husky</h3>
+
+                <div class="rating" aria-label="5 out of 5 stars">
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                </div>
+
+                <div class="testimonial-text">
+                  <img
+                    src="images/quotation_mark.svg"
+                    alt=""
+                    class="quote-mark"
+                    aria-hidden="true"
+                  />
+                  <blockquote>
+                    I really like Tindog for my pet Huskier. Tindog really gave
+                    me an accurate and safe results. Will recommend this one!
+                  </blockquote>
+                </div>
+              </article>
+
+              <article class="testimonial-card">
+                <img
+                  class="owner-pet"
+                  src="images/owner-pet.png"
+                  alt="Jane Doe with her husky"
+                />
+
+                <p class="customer-name">Jane Doe</p>
+                <h3>Pet: Husky</h3>
+
+                <div class="rating" aria-label="5 out of 5 stars">
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                </div>
+
+                <div class="testimonial-text">
+                  <img
+                    src="images/quotation_mark.svg"
+                    alt=""
+                    class="quote-mark"
+                    aria-hidden="true"
+                  />
+                  <blockquote>
+                    Tindog helped my dog meet a friendly match nearby. The app
+                    feels simple, helpful, and easy to trust.
+                  </blockquote>
+                </div>
+              </article>
+
+              <article class="testimonial-card">
+                <img
+                  class="owner-pet"
+                  src="images/owner-pet.png"
+                  alt="Jane Doe with her husky"
+                />
+
+                <p class="customer-name">Jane Doe</p>
+                <h3>Pet: Husky</h3>
+
+                <div class="rating" aria-label="5 out of 5 stars">
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                  <img src="images/star.svg" alt="" />
+                </div>
+
+                <div class="testimonial-text">
+                  <img
+                    src="images/quotation_mark.svg"
+                    alt=""
+                    class="quote-mark"
+                    aria-hidden="true"
+                  />
+                  <blockquote>
+                    The matches were accurate and safe. I love that Tindog works
+                    with pet-focused groups and adoption projects.
+                  </blockquote>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="testimonial-controls" aria-label="Testimonial controls">
+            <button
+              class="carousel-arrow"
+              type="button"
+              data-carousel-prev
+              aria-label="Previous testimonials"
+            >
+              <span aria-hidden="true">&lt;</span>
+            </button>
+
+            <div
+              class="testimonial-dots"
+              data-carousel-dots
+              aria-label="Testimonial slides"
+            ></div>
+
+            <button
+              class="carousel-arrow"
+              type="button"
+              data-carousel-next
+              aria-label="Next testimonials"
+            >
+              <span aria-hidden="true">&gt;</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="cta" aria-labelledby="cta-title">
+        <div class="cta-container">
+          <div class="cta-desc">
+            <p class="cta-kicker">Don't make your dog lonely</p>
+            <h2 id="cta-title">
+              <span>Get your dog a</span>
+              <span>partner in life</span>
+            </h2>
+            <button class="get-btn-2" type="button">Get the app</button>
+          </div>
+
+          <div class="cta-img" aria-hidden="true">
+            <h3 id="get-me-hooman">Get me a partner, hooman!</h3>
+            <img src="images/Ellipse.png" class="ellipse-cta" alt="" />
+            <img src="images/cta-dog.png" alt="" class="cta-dog" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <section class="footer-brand" aria-label="Tindog information">
+          <div class="footer-logo">
+            <img src="images/tindog-logo.svg" alt="" />
+            <span>Tindog</span>
+          </div>
+
+          <p>
+            Tindog assists dog owners whose pets are lonely. Tindog also
+            collaborated with veterinarians and a dog adoption project. Be a
+            part of this change
+          </p>
+
+          <ul class="social-links" aria-label="Social links">
+            <li>
+              <a href="#" aria-label="Facebook">
+                <img src="images/fb.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Twitter">
+                <img src="images/twitter.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="tel:+6353248888" aria-label="Call Tindog">
+                <img src="images/phone.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="mailto:hello@tindog.com" aria-label="Email Tindog">
+                <img src="images/mail.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <nav id="guides" class="footer-links" aria-label="Quick links">
+          <h2>Quick Links</h2>
+          <a href="#guides">Guides</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </nav>
+
+        <section class="footer-contact" aria-labelledby="footer-contact-title">
+          <h2 id="footer-contact-title">Contact Us</h2>
+
+          <address>
+            <span>Local Sales:</span>
+            <a href="tel:+6353248888">(632) 5324.8888</a>
+
+            <span>Local Sales:</span>
+            <a href="tel:+6353248888">(632) 5324.8888</a>
+
+            <span>Local Sales:</span>
+            <a href="tel:+6353248888">(632) 5324.8888</a>
+          </address>
+        </section>
+
+        <section
+          class="footer-download"
+          aria-labelledby="footer-download-title"
+        >
+          <h2 id="footer-download-title">Download the app now</h2>
+
+          <div class="footer-badges">
+            <img src="images/google.png" alt="Get it on Google Play" />
+            <img src="images/app_store.png" alt="Download on the App Store" />
+          </div>
+        </section>
+
+        <p class="footer-copy">Tindog &copy; 2026 All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const primaryNav = document.querySelector("#primary-navigation");
+
+      if (menuToggle && primaryNav) {
+        menuToggle.addEventListener("click", () => {
+          const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+
+          menuToggle.setAttribute("aria-expanded", String(!isOpen));
+          menuToggle.setAttribute("aria-label", isOpen ? "Open menu" : "Close menu");
+          primaryNav.classList.toggle("is-open", !isOpen);
+        });
+
+        primaryNav.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Open menu");
+            primaryNav.classList.remove("is-open");
+          });
+        });
+      }
+
+      const carousel = document.querySelector("[data-carousel]");
+
+      if (carousel) {
+        const track = carousel.querySelector(".testimonial-track");
+        const cards = Array.from(carousel.querySelectorAll(".testimonial-card"));
+        const dotsContainer = carousel.querySelector("[data-carousel-dots]");
+        const prevButton = carousel.querySelector("[data-carousel-prev]");
+        const nextButton = carousel.querySelector("[data-carousel-next]");
+        let currentPage = 0;
+
+        function getCardsPerPage() {
+          if (window.innerWidth <= 900) {
+            return 1;
+          }
+
+          return 3;
+        }
+
+        function getPageCount() {
+          return Math.max(1, Math.ceil(cards.length / getCardsPerPage()));
+        }
+
+        function renderDots() {
+          dotsContainer.innerHTML = "";
+
+          for (let page = 0; page < getPageCount(); page += 1) {
+            const dot = document.createElement("button");
+            dot.type = "button";
+            dot.setAttribute("aria-label", `Show testimonial slide ${page + 1}`);
+            dot.addEventListener("click", () => goToPage(page));
+            dotsContainer.appendChild(dot);
+          }
+        }
+
+        function updateCarousel() {
+          const pageCount = getPageCount();
+          const cardsPerPage = getCardsPerPage();
+
+          currentPage = Math.min(currentPage, pageCount - 1);
+
+          const firstCardOnPage = cards[currentPage * cardsPerPage];
+          const offset = firstCardOnPage ? firstCardOnPage.offsetLeft : 0;
+
+          track.style.transform = `translateX(-${offset}px)`;
+
+          Array.from(dotsContainer.children).forEach((dot, index) => {
+            dot.classList.toggle("active-dot", index === currentPage);
+            dot.setAttribute(
+              "aria-current",
+              index === currentPage ? "true" : "false"
+            );
+          });
+
+          prevButton.disabled = currentPage === 0;
+          nextButton.disabled = currentPage === pageCount - 1;
+        }
+
+        function goToPage(page) {
+          currentPage = Math.max(0, Math.min(page, getPageCount() - 1));
+          updateCarousel();
+        }
+
+        prevButton.addEventListener("click", () => goToPage(currentPage - 1));
+        nextButton.addEventListener("click", () => goToPage(currentPage + 1));
+
+        window.addEventListener("resize", () => {
+          renderDots();
+          updateCarousel();
+        });
+
+        renderDots();
+        updateCarousel();
+      }
+    </script>
+  </body>
+</html>
