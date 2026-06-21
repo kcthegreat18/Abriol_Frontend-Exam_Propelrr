@@ -664,12 +664,14 @@ header {
   font-family: 'Nanum Pen Script', cursive;
   font-size: clamp(1.9rem, 3vw, 2.4rem);
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .footer-badges {
   display: flex;
   gap: 0.75rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .footer-badges img {
