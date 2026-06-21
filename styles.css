@@ -274,7 +274,8 @@ header {
   z-index: -1;
 }
 
-.find-more-band p {
+.find-more-band .find-more-link {
+  display: inline-block;
   position: relative;
   margin: 0;
   color: #1f1f1f;
@@ -282,9 +283,10 @@ header {
   font-size: 1.9rem;
   font-weight: 500;
   line-height: 1;
+  text-decoration: none;
 }
 
-.find-more-band p::after {
+.find-more-band .find-more-link::after {
   content: "";
   display: block;
   width: 0.65rem;
